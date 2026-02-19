@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.serif {
+    font-family: 'Playfair Display', serif;
+}
+
+.gold-gradient {
+    background: linear-gradient(135deg, #d4af37 0%, #f9e29b 50%, #b8860b 100%);
+}
+
+@layer components {
+    .container {
+        @apply max-w-[95rem] mx-auto px-6;
+    }
+}
