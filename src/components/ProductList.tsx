@@ -1,6 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
 import {PRODUCTS as Products} from './Products';
+import  { Product } from '../types';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const PRODUCTS = Products; 
